@@ -1,0 +1,75 @@
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-style: double;
+    background-image: linear-gradient(to right, rgb(179, 123, 243) , rgb(252, 160, 252));
+    height: 600px;
+    
+}
+
+
+  .btn{
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-image: linear-gradient(to right, rgb(52, 49, 255) , rgb(255, 97, 255));
+    background-color: #8e90fc;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .btn:hover { background-image: linear-gradient(to right, rgb(255, 49, 228) , rgb(52, 49, 255));}
+  
+  .btn:active {
+     background-image: linear-gradient(to right, rgb(52, 49, 255) , rgb(255, 97, 255));
+    box-shadow: 0 5px rgb(212, 209, 255);
+    transform: translateY(4px);
+  }
+
+
+  .Decimal-btn{
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-image: linear-gradient(to right, rgb(255, 97, 255) , rgb(52, 49, 255));
+    background-color: #8e90fc;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .Decimal-btn:hover { background-image: linear-gradient(to right, rgb(52, 49, 255) , rgb(255,49, 228));}
+  
+  .Decimal-btn:active {
+     background-image: linear-gradient(to right,  rgb(255, 97, 255) , rgb(52, 49, 255));
+    box-shadow: 0 5px rgb(212, 209, 255);
+    transform: translateY(4px);
+  }
+
+  .display-result{
+    margin-top: 50px;
+  
+  }
+
+  .decimal-display-result{
+    margin-top: 50px;
+    
+  }
+ .h1{
+   
+ margin-bottom: 550px;
+   
+ }
